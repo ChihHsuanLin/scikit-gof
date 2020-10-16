@@ -4,11 +4,12 @@ from setuptools import setup
 
 meta = {
     'name': 'scikit-gof',
-    'version': '0.1.3',
+    'version': '0.1.4',
     'packages': ('skgof',),
     'install_requires': (
         'numpy>=1.10',
-        'scipy>=0.16'
+        'scipy>=0.16',
+        'six>=1.0.0'
     ),
     'tests_require': (
         'flake8-print',
